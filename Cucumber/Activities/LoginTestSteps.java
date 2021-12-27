@@ -34,6 +34,13 @@ public class LoginTestSteps {
 		driver.findElement(By.id("password")).sendKeys("password");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
+	
+	@When("^User enters \"(.*)\" and \"(.*)\"$")
+	public void enterCredFrimFeature(String username , String password) {
+		driver.findElement(By.id("username")).sendKeys(username);
+		driver.findElement(By.id("password")).sendKeys(password);
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+	}
 
 	@Then("^Read the page title and confirmation message$")
 	public void readMsg() {

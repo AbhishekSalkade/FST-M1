@@ -12,7 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 		//tags = "@SmokeTest",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
 		//tags = "@SimpleAlert or @ConfirmAlert",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
 		//tags = "@PromptAlert",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
-		tags = "@activity1_3",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
+		//tags = "@activity1_3",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
+		//tags = "@activity2_4",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
+		tags = "@activity2_5",plugin={"pretty","html:target/cucumber-reports/Cucumber.html"}, monochrome=true
 		)
 
 public class ActivitiesRunner {
